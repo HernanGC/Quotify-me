@@ -10,5 +10,7 @@ Simple app that displays a daily inspirational quote.
 
 You can check it out at: **https://hernangc.github.io/Quotify-me/**
 
+The API I used was the following: **https://quotes.rest/** -- Give it a try!
+
 ### Any suggestions? Feedback?
 Let me now! **DM me**.

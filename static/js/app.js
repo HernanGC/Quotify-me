@@ -20,7 +20,7 @@ class quotifyMe {
                 self.renderQuote(localStorage.getItem('quote'));
                 return;
             }
-            fetch('http://quotes.rest/qod.json?category=inspire')
+            fetch('https://quotes.rest/qod.json?category=inspire')
             .then(res => res.json())
             .then(data => self.processQuoteData(data))
             .catch(err => self.processQuoteData(err));

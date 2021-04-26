@@ -63,10 +63,7 @@ class quotifyMe {
     quoteDateIsToday(quoteDate) {
         let date = new Date().toISOString();
         date = date.split('T')[0];
-        if (date === quoteDate) {
-            return true;
-        }
-        return false;
+        return date === quoteDate;
     }
 }
 
